@@ -3,7 +3,7 @@ require_once('clases.php');
 
 define('BUCKET_USUARIOS', 'users');
 define('BUCKET_RWEETS', 'rweets');
-define('URI', 'mongodb://dev:dev@ds031531.mongolab.com:31531/openshift_90r4hnt6_rrru48g7');
+define('URI', 'mongodb://:@ds031531.mongolab.com:31531/');
 
 function getCollection($collection){
 	try {
